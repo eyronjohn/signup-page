@@ -23,3 +23,26 @@ form{
     min-width: 300px;
     max-width: 500px;
 }
+
+textarea{
+    width: 100%;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    height: 40px;
+    width: 180px;
+    font-size: 1.1rem;
+    background-color: #3d6593;
+    border-color: white;
+    color: white;
+}
+
+
+fieldset{
+    /*border: none; */ /*removes the border of fieldset*/
+}
